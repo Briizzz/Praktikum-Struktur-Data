@@ -3,7 +3,20 @@
 
 ## Dasar Teori
 
-Berikan penjelasan teori terkait materi modul ini dengan bahasa anda sendiri serta susunan yang terstruktur per topiknya.
+Tipe data dalam pemrograman adalah pengklasifikasian data berdasarkan jenis data tersebut. Tipe data dibutuhkan agar kompiler dapat mengetahui bagaimana sebuah data akan digunakan. Ada dua jenis tipe data, yaitu primitive dan composite. Tipe data primitive termasuk integer, floating point, character, string, dan boolean. Sementara tipe data composite termasuk array, object, dan class. Tipe data primer hanya menyimpan satu nilai saja dalam satu variabelnya, sedangkan tipe data composite menggabungkan dua atau lebih tipe data primitive.
+
+Jenis-jenis tipe data yang umum digunakan dalam pemrograman antara lain:
+
+1. Integer: Tipe data berupa bilangan bulat.
+2. Float: Bilangan yang berisi titik decimal atau jenis bilangan pecahan.
+3. Character: Tipe data yang mampu menyimpan 1 digit saja.
+4. String: Tipe data yang menggabungkan beberapa karakter.
+5. Boolean: Tipe data logika yang berisi dua kemungkinan yaitu Betul atau Salah.
+6. Array: Tipe data yang menggabungkan beberapa elemen yang sama.
+7. Object: Tipe data yang menggabungkan beberapa elemen yang berbeda.
+8. Class: Tipe data yang menggabungkan beberapa elemen yang sama dan dapat diperluas.
+
+Jenis-jenis tipe data ini digunakan untuk menentukan jenis nilai yang dimiliki variabel dan mengatur operasi yang dapat dilakukan pada data tersebut.
 
 ## Soal 1
 Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas.
@@ -155,3 +168,16 @@ Perbedaan antara array dan map:
 4. **Ukuran**: Array memiliki ukuran yang tetap dan harus didefinisikan pada saat deklarasi, sedangkan map dapat menyesuaikan ukurannya secara dinamis dengan menambah atau menghapus pasangan key-value.
 
 Jadi, meskipun keduanya dapat digunakan untuk menyimpan data, pemilihan antara array dan map tergantung pada kebutuhan program dan jenis operasi yang akan dilakukan pada data tersebut.
+
+## Refrensi
+Guntoro. 2023. 13 Tipe Data dalam Pemrograman Komputer. URL: https://badoystudio.com/tipe-data/
+
+Roni, A. 2021. Pengertian dan Macam-macam Tipe Data. URL: https://aderoni.com/pemrograman/pengertian-dan-macam-macam-tipe-data/
+
+Wulandari, S. 2023. 10 Jenis Tipe Data Pemrograman Populer 2023. URL: https://dibimbing.id/blog/detail/jenis-tipe-data-pemrograman
+
+Oliver, A. 2023. 10 Tipe Data yang Sering Dipakai Programmer di 2022. URL: https://glints.com/id/lowongan/tipe-data/
+
+REVOU. 2023. Apa itu Tipe Data dalam Pemrograman?. URL: https://revou.co/kosakata/tipe-data
+
+Wimawan, R. B. (2019, April 11). Tipe Data Sederhana. https://doi.org/10.31219/osf.io/vwf52 
