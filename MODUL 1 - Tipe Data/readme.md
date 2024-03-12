@@ -42,6 +42,29 @@ int main() {
     return 0;
 }
 ```
+Penjelasan kodingan:
+
+Kodingan di atas adalah contoh program sederhana dalam C++ yang melakukan operasi penjumlahan dan perkalian dua angka bulat yang dimasukkan oleh pengguna. Berikut adalah penjelasannya:
+
+1. `#include <iostream>`: Meng-include library `<iostream>` yang digunakan untuk input dan output dalam program C++.
+
+2. `int tambah(int a, int b) { ... }`: Mendefinisikan fungsi `tambah` yang menerima dua parameter `a` dan `b` bertipe `int` dan mengembalikan hasil penjumlahan dari kedua parameter tersebut.
+
+3. `int kali(int a, int b) { ... }`: Mendefinisikan fungsi `kali` yang menerima dua parameter `a` dan `b` bertipe `int` dan mengembalikan hasil perkalian dari kedua parameter tersebut.
+
+4. `int main() { ... }`: Fungsi utama dari program C++. Semua kode program dieksekusi di dalam fungsi `main`.
+
+5. `int angka1, angka2;`: Mendeklarasikan dua variabel `angka1` dan `angka2` bertipe `int` untuk menyimpan angka yang dimasukkan oleh pengguna.
+
+6. `std::cout << "Masukkan dua angka bulat: ";`: Menggunakan `std::cout` (console output) untuk menampilkan pesan "Masukkan dua angka bulat: " ke layar.
+
+7. `std::cin >> angka1 >> angka2;`: Menggunakan `std::cin` (console input) untuk mengambil dua angka yang dimasukkan oleh pengguna dan menyimpannya ke dalam variabel `angka1` dan `angka2`.
+
+8. `std::cout << "Hasil penjumlahan: " << tambah(angka1, angka2) << std::endl;`: Menampilkan hasil penjumlahan dari `angka1` dan `angka2` dengan memanggil fungsi `tambah` dan menggunakan `std::cout` untuk menampilkan hasilnya.
+
+9. `std::cout << "Hasil perkalian: " << kali(angka1, angka2) << std::endl;`: Menampilkan hasil perkalian dari `angka1` dan `angka2` dengan memanggil fungsi `kali` dan menggunakan `std::cout` untuk menampilkan hasilnya.
+
+10. `return 0;`: Mengembalikan nilai `0` sebagai tanda bahwa program telah berakhir dengan sukses.
 
 Program ini memiliki dua fungsi integer: `tambah` untuk menjumlahkan dua bilangan bulat, dan `kali` untuk mengalikan dua bilangan bulat. Program ini meminta pengguna memasukkan dua angka bulat, lalu menampilkan hasil penjumlahan dan perkalian dari kedua angka tersebut.
 
@@ -91,6 +114,34 @@ Class dan struct adalah dua konsep dasar dalam pemrograman berorientasi objek ya
      }
      ```
 
+Penjelasan Kodingan:
+     
+Kodingan di atas adalah contoh penggunaan class dalam C++. Class digunakan untuk membuat tipe data baru yang dapat memiliki data (variabel) dan fungsi (member function) yang terkait. Berikut adalah penjelasannya:
+
+1. `#include <iostream>`: Meng-include library `<iostream>` yang digunakan untuk input dan output dalam program C++.
+
+2. `using namespace std;`: Menggunakan namespace `std` agar tidak perlu menuliskan `std::` sebelum penggunaan fungsi atau objek dari namespace `std`.
+
+3. `class Person { ... };`: Mendefinisikan class `Person` yang memiliki dua variabel private (`name` bertipe `string` dan `age` bertipe `int`) dan satu constructor dan satu member function public.
+
+4. `private:`: Bagian dari class yang mendefinisikan variabel atau fungsi yang hanya dapat diakses dari dalam class tersebut.
+
+5. `public:`: Bagian dari class yang mendefinisikan variabel atau fungsi yang dapat diakses dari luar class.
+
+6. `Person(string n, int a) : name(n), age(a) {}`: Mendefinisikan constructor untuk class `Person` yang menerima dua parameter (`n` bertipe `string` dan `a` bertipe `int`) dan menginisialisasi variabel `name` dan `age` dengan nilai parameter.
+
+7. `void displayInfo() { ... }`: Mendefinisikan member function `displayInfo` yang tidak mengembalikan nilai (`void`) dan digunakan untuk menampilkan informasi tentang objek `Person`.
+
+8. `cout << "Name: " << name << ", Age: " << age << endl;`: Baris ini digunakan dalam member function `displayInfo` untuk menampilkan informasi tentang objek `Person` yang dipanggil.
+
+9. `int main() { ... }`: Fungsi utama dari program C++. Semua kode program dieksekusi di dalam fungsi `main`.
+
+10. `Person person1("John", 30);`: Membuat objek `person1` dari class `Person` dengan nama "John" dan umur 30 tahun.
+
+11. `person1.displayInfo();`: Memanggil member function `displayInfo` dari objek `person1` untuk menampilkan informasi tentang objek tersebut.
+
+12. `return 0;`: Mengembalikan nilai `0` sebagai tanda bahwa program telah berakhir dengan sukses.
+
 2. **Struct**:
    - **Fungsi**: Struct juga digunakan untuk membuat tipe data baru yang dapat menyimpan data, tetapi tidak mendukung enkapsulasi, inheritance, dan polymorphism seperti class. Secara default, semua anggotanya adalah public.
    - **Contoh Program**:
@@ -115,6 +166,26 @@ Class dan struct adalah dua konsep dasar dalam pemrograman berorientasi objek ya
          return 0;
      }
      ```
+
+Penjelasan kodingan:
+
+ Kodingan di atas adalah contoh penggunaan `struct` dalam C++. `struct` digunakan untuk membuat tipe data baru yang dapat menyimpan beberapa tipe data lainnya. Berikut adalah penjelasannya:
+
+1. `#include <iostream>`: Meng-include library `<iostream>` yang digunakan untuk input dan output dalam program C++.
+
+2. `using namespace std;`: Menggunakan namespace `std` agar tidak perlu menuliskan `std::` sebelum penggunaan fungsi atau objek dari namespace `std`.
+
+3. `struct Person { ... };`: Mendefinisikan sebuah `struct` dengan nama `Person` yang memiliki dua anggota, yaitu `name` (bertipe `string`) dan `age` (bertipe `int`).
+
+4. `int main() { ... }`: Fungsi utama dari program C++. Semua kode program dieksekusi di dalam fungsi `main`.
+
+5. `Person person1 = {"John", 30};`: Membuat objek `person1` dari tipe `Person` dan menginisialisasinya dengan nilai `"John"` untuk `name` dan `30` untuk `age`.
+
+6. `cout << "Name: " << person1.name << ", Age: " << person1.age << endl;`: Menggunakan `cout` (console output) untuk menampilkan data yang disimpan dalam objek `person1`. Data yang ditampilkan adalah `name` dan `age` dari objek `person1`.
+
+7. `return 0;`: Mengembalikan nilai `0` sebagai tanda bahwa program telah berakhir dengan sukses.
+
+Dengan demikian, kodingan di atas adalah contoh penggunaan `struct` untuk membuat tipe data baru yang dapat menyimpan beberapa nilai sekaligus dalam bahasa pemrograman C++.
 
 Kesimpulan:
 - Class dan struct adalah dua cara untuk mendefinisikan tipe data baru yang dapat menyimpan data dan fungsi-fungsi yang beroperasi pada data tersebut.
@@ -154,7 +225,7 @@ int main() {
     return 0;
 }
 ```
-## Penjelasan:
+Penjelasan kodingan:
 1. Include Library: Program dimulai dengan meng-include tiga library standar yaitu <iostream>, <map>, dan <string>. Library <iostream> digunakan untuk input dan output, <map> digunakan untuk menggunakan struktur data map, dan <string> digunakan untuk menggunakan tipe data string.
 
 2. Namespace: using namespace std; digunakan untuk menggunakan namespace std sehingga kita tidak perlu menuliskan std:: sebelum setiap penggunaan fungsi atau objek dari namespace std.
