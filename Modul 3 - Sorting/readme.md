@@ -23,20 +23,6 @@ Ada beberapa algoritma pengurutan, dan masing-masing algoritma memiliki kelebiha
 - Counting Sort
 - Flux Sort
 
-Dalam hal kompleksitas ruang, algoritma pengurutan juga dapat diklasifikasikan menjadi dua kategori:
-
-1. Penyortiran di tempat: Kategori algoritme pengurutan ini hanya menggunakan jumlah ruang ekstra yang konstan, berapa pun ukuran masukannya. Kompleksitas waktu algoritma pengurutan di tempat adalah O(n log n) pada kasus terbaik dan rata-rata, dan O(n^2) pada kasus terburuk. Contoh algoritma pengurutan di tempat adalah:
-- Bubble Sort
-- Insertion Sort
-- Selection Sort
-- Quick Sort
-- Heap Sort
-
-2. Penyortiran tidak di tempat: Kategori algoritme pengurutan ini menggunakan ruang ekstra, yang sebanding dengan ukuran masukan. Kompleksitas waktu dari algoritma pengurutan yang tidak pada tempatnya adalah O(n) dalam kasus terbaik, rata-rata, dan terburuk. Contoh algoritma pengurutan yang tidak pada tempatnya adalah:
-- Bucket Sort
-- Radix Sort
-- Counting Sort
-- Flux Sort
 
 ## GUIDED 1
 
