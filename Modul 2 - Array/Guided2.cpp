@@ -3,10 +3,12 @@ using namespace std;
 
 int main()
 {
+    // Deklarasi Variabel
     int maks, a, i = 1, lokasi;
     cout << "Masukkan Panjang array: ";
     cin >> a;
     int array[a];
+    // Masukkan Data
     cout << "Masukkan " << a << "angka\n";
     for (i = 0; i < a; i++)
     {
