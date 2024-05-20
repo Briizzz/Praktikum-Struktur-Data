@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul Sorting</h1>
+# <h1 align="center">Laporan Praktikum Modul "Sorting"</h1>
 <p align="center">Brian Nugraha Wiyono</p>
 
 ## Dasar Teori
