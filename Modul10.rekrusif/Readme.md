@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul "PRIORITY QUEUE DAN HEAPS"</h1>
+# <h1 align="center">Laporan Praktikum Modul "REKURSIF"</h1>
 <p align="center">Brian Nugraha Wiyono</p>
 
 ## Dasar Teori
