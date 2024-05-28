@@ -77,14 +77,14 @@ void viewQueue() {
 }
 
 int main() {
-    enqueueAntrian("Andi");
+   enqueueAntrian("Andi");
     enqueueAntrian("Maya");
     viewQueue();
     cout << "Jumlah antrian = " << countQueue() << endl;
     dequeueAntrian();
     viewQueue();
-    cout << "Jumlah antrian setelah menghapus = " << countQueue() << endl;
-    ClearQeue();
+    cout << "Jumlah antrian = " << countQueue() << endl;
+    clearQueue();
     viewQueue();
     cout << "Jumlah antrian = " << countQueue() << endl;
     return 0;
